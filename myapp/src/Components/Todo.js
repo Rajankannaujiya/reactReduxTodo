@@ -3,6 +3,7 @@ import { useSelector,useDispatch} from 'react-redux';
 import { removeTodo } from '../Features/todo/todoSlice';
 
 function Todo() {
+   // access deta h store ka
    const todos= useSelector(state=>state.todos)
    const dispatch=useDispatch()
   return (
