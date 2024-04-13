@@ -5,6 +5,7 @@ const initialState={
 }
 
 export const todoSlice =createSlice({
+    // Slices ke naam hote hh jab hum reduce toolkit use karenge chrome extension ka to yahi naam show hoga aur iska koi importance nahi h
     name:'todo',
     initialState,
     reducers:{
